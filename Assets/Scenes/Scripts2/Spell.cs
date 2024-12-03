@@ -4,15 +4,18 @@ using UnityEngine;
 
 public class Spell : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public virtual void SpellBall () 
     {
-        
+
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Caststring()
     {
-        
+
+    }
+
+    public void cast(string str , int In)
+    {
+
     }
 }
